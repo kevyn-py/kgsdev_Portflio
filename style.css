@@ -24,9 +24,11 @@ body {
 }
 
 .navegacao {
+    position: fixed;
     width: 100%;
-    background: rgba(50, 51, 54, 0.8);
+    background: rgba(30, 30, 32, 0.8);
     padding: 1.5rem;
+    
 }
 
 .menu {
@@ -35,13 +37,14 @@ body {
     align-items: center;
     list-style: none;
     gap: 3rem;
+
 }
 
 
 .menu__link {
     text-decoration: none;
     color: var(--claro);
-    font-weight: 500;
+    font-weight: 500rem;
     position: relative;
     padding: 0.5rem 0;
 }
@@ -56,8 +59,7 @@ body {
 }
 
 .foto__perfil {
-    right: 400px;
-    width: 400px;
+    width: 25%;
     border-radius: 40%;
     box-shadow: -10px -3px 46px 19px rgba(255,111,60,0.49);
     border: 4px solid var(--primaria);
@@ -100,7 +102,6 @@ body {
     margin: 0 auto;
     border-radius: 50px;
     border: 2px solid var(--vidro);
-    backdrop-filter: blur(20px);
     background: var(--card);
     margin-bottom: 30px;
     box-shadow: -10px -3px 46px 19px rgba(255,111,60,0.19);
@@ -136,7 +137,6 @@ body {
 .projetos__cards {
     background: var(--card);
     border-radius: 16px;
-    backdrop-filter: blur(5px);
     border: 1px solid var(--vidro);
     overflow: hidden;
     box-shadow: -10px -3px 46px 19px rgba(255,111,60,0.19);
@@ -216,4 +216,23 @@ body {
     display: flex;
     justify-content: center;
     font-size: 15px;
+}
+
+@media(max-width: 1000px){
+    .menu{
+        justify-content: center;
+    }
+    
+    
+    .home{
+        flex-direction: column;
+    }
+    .home__conteudo__titulo{
+        font-size: 2.5rem
+
+    }
+    .foto__perfil{
+        width: 40%;
+    }
+    
 }
