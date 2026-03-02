@@ -32,4 +32,4 @@ O projeto foi criado como prática de desenvolvimento front-end, seguindo uma es
 
 💻 Acesse o meu projeto:
 
-- https://kevyn-py.github.io/KGSdev-Portf-lio/
+-https://kevyn-py.github.io/KGSdev-Portf-lio/](https://kevyn-py.github.io/kgsdev_Portflio/
