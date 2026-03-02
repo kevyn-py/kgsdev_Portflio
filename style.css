@@ -44,7 +44,7 @@ body {
 .menu__link {
     text-decoration: none;
     color: var(--claro);
-    font-weight: 500rem;
+    font-weight: 5rem;
     position: relative;
     padding: 0.5rem 0;
 }
@@ -228,7 +228,7 @@ body {
         flex-direction: column;
     }
     .home__conteudo__titulo{
-        font-size: 2.5rem
+        font-size: 2rem
 
     }
     .foto__perfil{
